@@ -7,10 +7,11 @@ public class ClassWork2111 {
         int N = scanner.nextInt();
 
         int fact = 1;
-        for (int i = 1; i <= N; i++){
+        for (int i = 1; i <= N; i++) {
             fact = fact * i;
         }
         System.out.println(fact);
     }
 
 }
+
